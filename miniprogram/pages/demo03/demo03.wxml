@@ -19,8 +19,75 @@
 <!-- 6 使用bool类型充当属性 
     字符串与花括号间不能有空格
 -->
+
 <view>
     <checkbox checked="{{isChecked}}"></checkbox>
 </view>
+
+
+
 <icon class="iconfont icon-heart"></icon>
 <icon class="iconfont icon-3dglass"></icon>
+
+<view>示例一</view>
+<view class="menu-1">
+    <image src="/images/MyImages/1.jpg"></image>
+    <image src="/images/MyImages/1.jpg"></image>
+    <image src="/images/MyImages/1.jpg"></image>
+    <image src="/images/MyImages/1.jpg"></image>
+</view>
+
+
+<!-- flex布局 -->
+<view>示例二</view>
+<view class="menu-2">
+    <view class="item">
+        <image src="/images/MyImages/2.jpg"></image>
+        <text>小姐姐</text>
+    </view>
+    <view class="item">
+        <image src="/images/MyImages/2.jpg"></image>
+        <text>小姐姐</text>
+    </view>    <view class="item">
+        <image src="/images/MyImages/2.jpg"></image>
+        <text>小姐姐</text>
+    </view>    <view class="item">
+        <image src="/images/MyImages/2.jpg"></image>
+        <text>小姐姐</text>
+    </view>
+</view>
+<view>示例三</view>
+<view class="auction">
+    <view class="item">
+        <view class="title">第一场 拍卖好东西</view>
+        <view class="tips">
+            <view class="status">2020-06-12</view>
+            <view class="count">22次围观</view>
+        </view>
+            <view class="big">
+        <image src="/images/MyImages/3.jpg"></image>
+        </view>
+        <view class="small">
+            <image src="/images/MyImages/3.jpg"></image>
+            <image src="/images/MyImages/3.jpg"></image>
+            <image src="/images/MyImages/3.jpg"></image>
+            <image src="/images/MyImages/3.jpg"></image>
+        </view>
+    </view>
+    <view class="item">
+        <view class="title">第二场 拍卖好东西</view>
+        <view class="tips">
+            <view class="status">2020-06-12</view>
+            <view class="count">22次围观</view>
+        </view>
+            <view class="big">
+        <image src="/images/MyImages/3.jpg"></image>
+        </view>
+        <view class="small">
+            <image src="/images/MyImages/3.jpg"></image>
+            <image src="/images/MyImages/3.jpg"></image>
+            <image src="/images/MyImages/3.jpg"></image>
+            <image src="/images/MyImages/3.jpg"></image>
+        </view>
+    </view>
+</view>
