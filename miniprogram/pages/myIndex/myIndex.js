@@ -5,16 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-      msg:"mina",
-      num:10000,
-      isGirl:false,
-      person:{
-        age:74,
-        weight:145,
-        height:200,
-        name:"富婆"
-      },
-      isChecked:false
+
   },
 
   /**
@@ -71,5 +62,16 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  /**
+     * 点击绑定的事件
+   */
+  clickMe: function(e){
+    var nid = e.currentTarget.dataset.nid;
+    console.log(nid);
+    //跳转
+    wx.navigateTo({
+      url: '/pages/demo02/demo02?id='+nid,
+    })
   }
 })

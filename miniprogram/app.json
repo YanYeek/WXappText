@@ -1,6 +1,6 @@
 {
   "pages": [
-    "pages/demo03/demo03",
+    "pages/myIndex/myIndex",
     "pages/index/index",
     "pages/img/img",
     "pages/mine/mine",
@@ -30,7 +30,7 @@
   "tabBar": {
     "list": [
       {
-      "pagePath": "pages/demo03/demo03",
+      "pagePath": "pages/myIndex/myIndex",
       "text": "首页",
       "iconPath": "icons/home_.png",
       "selectedIconPath": "icons/home.png"
@@ -42,13 +42,13 @@
       "selectedIconPath": "icons/picture.png"
     },    
     {
-      "pagePath": "pages/index/index",
+      "pagePath": "pages/demo01/demo01",
       "text": "搜索",
       "iconPath": "icons/search-1_.png",
       "selectedIconPath": "icons/search-1.png"
     },
     {
-      "pagePath": "pages/mine/mine",
+      "pagePath": "pages/index/index",
       "text": "我的",
       "iconPath": "icons/user_.png",
       "selectedIconPath": "icons/user.png"

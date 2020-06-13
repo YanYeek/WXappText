@@ -1,1 +1,23 @@
 /* pages/demo01/demo01.wxss */
+@font-face {
+    font-family: 'iconfont';  /* project id 1880697 */
+    src: url('//at.alicdn.com/t/font_1880697_23xqxik0mh8.eot');
+    src: url('//at.alicdn.com/t/font_1880697_23xqxik0mh8.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1880697_23xqxik0mh8.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1880697_23xqxik0mh8.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1880697_23xqxik0mh8.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1880697_23xqxik0mh8.svg#iconfont') format('svg');
+  }
+
+.iconfont{
+    font-family: 'iconfont';
+    color: red;
+    font-size: 40px;
+}
+.icon-heart::before{
+    content: '\e8ab';
+    color: chartreuse;
+}
+.icon-3dglass::before{
+    content: '\e8ac';
+}

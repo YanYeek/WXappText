@@ -5,7 +5,16 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    msg:"mina",
+    num:10000,
+    isGirl:false,
+    person:{
+      age:74,
+      weight:145,
+      height:200,
+      name:"富婆"
+    },
+    isChecked:false
   },
 
   /**

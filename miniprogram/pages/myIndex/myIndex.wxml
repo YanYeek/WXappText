@@ -1,33 +1,8 @@
-<!-- pages/demo03/demo03.wxml -->
-<!-- 1 text 相当于以前web中的 span 标签 行内元素 不会换行
-    2 view 相当于以前web中的 div 标签 块级元素 默认换行 -->
-<!-- <text>YanYeek</text>
-<view class="" hover-class="none" hover-stop-propagation="false">我是你爸爸知识的副队长的粉红色做得更好升段让河朔荛花收到货阿尔哈当事人和收到货属当戎行感受到好</view> -->
-<!-- 1 字符串 -->
-<view>{{ msg }}</view>
-<!-- 2 数字类型 -->
-<view>{{ num }}</view>
-<!-- 3 bool类型 -->
-<view>是否是伪娘：{{ isGirl }}</view>
-<!-- 4 objec类型 -->
-<view>{{person.age}}</view>
-<view>{{person.weight}}</view>
-<view>{{person.height}}</view>
-<view>{{person.name}}</view>
-<!-- 5 在标签的属性中使用 -->
-<view data-num="{{num}}">自定义属性</view>
-<!-- 6 使用bool类型充当属性 
-    字符串与花括号间不能有空格
--->
+<!-- pages/myIndex/myIndex.wxml -->
 
-<view>
-    <checkbox checked="{{isChecked}}"></checkbox>
-</view>
+<view bindtap="clickMe" data-nid="123" data-name="NS">点击跳转</view>
 
-
-
-<icon class="iconfont icon-heart"></icon>
-<icon class="iconfont icon-3dglass"></icon>
+<navigator url="/pages/demo02/demo02?id=777">点击跳转到新页面</navigator>
 
 <view>示例一</view>
 <view class="menu-1">
@@ -36,7 +11,6 @@
     <image src="/images/MyImages/1.jpg"></image>
     <image src="/images/MyImages/1.jpg"></image>
 </view>
-
 
 <!-- flex布局 -->
 <view>示例二</view>
@@ -56,6 +30,7 @@
         <text>小姐姐</text>
     </view>
 </view>
+
 <view>示例三</view>
 <view class="auction">
     <view class="item">
